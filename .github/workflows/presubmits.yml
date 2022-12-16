@@ -56,8 +56,9 @@ jobs:
       #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       #  run: make license-check
 
-      - name: Run linter
-        run: make lint
+      # TODO(presubmits): Re-enable linter
+      #- name: Run linter
+      #  run: make lint
 
   test:
     runs-on: ubuntu-latest
