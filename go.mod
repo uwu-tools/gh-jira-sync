@@ -3,12 +3,12 @@ module github.com/uwu-tools/gh-jira-sync
 go 1.19
 
 require (
-	github.com/Sirupsen/logrus v1.0.0
 	github.com/andygrunwald/go-jira v0.0.0-20170626210351-aaa2d02b3ad3
 	github.com/cenkalti/backoff v2.2.1+incompatible
 	github.com/dghubble/oauth1 v0.7.2
 	github.com/fsnotify/fsnotify v1.6.0
 	github.com/google/go-github v17.0.0+incompatible
+	github.com/sirupsen/logrus v1.9.0
 	github.com/spf13/cobra v1.6.1
 	github.com/spf13/viper v1.14.0
 	golang.org/x/oauth2 v0.0.0-20221014153046-6fdb5e3db783
